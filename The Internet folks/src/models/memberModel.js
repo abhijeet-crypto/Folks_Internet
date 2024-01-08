@@ -22,4 +22,4 @@ created_at: {
 });
 
 const memberModel= mongoose.model("member", memberSchema)
-module.exports = {memberModel};
+module.exports = memberModel;
